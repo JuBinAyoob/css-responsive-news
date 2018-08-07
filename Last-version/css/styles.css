@@ -1,0 +1,296 @@
+/*web page Tips
+
+
+nav a,button{
+  min-width:48px;
+  min-height: 48px;
+}
+
+*/
+
+
+/*Common Files*/
+header, footer, nav, div, section{
+  box-sizing:border-box;
+} 
+
+header, nav, main, section{
+  display: block;
+} 
+
+header{
+  height: 88px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  margin:0px;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #424242; 
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  width:100%;
+}
+/*footer*/
+footer {
+  display: flex;
+  border-top: 1px solid #E0E0E0;
+  border-left: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+  padding: 1em 0px 1em 1%;
+  width: 77%;
+  margin: auto;
+}
+footer ul{
+  width: 100%;
+}
+
+footer li {
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 15%;
+  margin-left: 1%;
+  padding: 0px;
+}
+
+footer a {
+  color: #333;
+}
+
+.float-right{
+  float:right;
+}
+
+.text-bold{
+  font-weight:bold;
+}
+
+.text-center{
+  text-align: center;
+}
+/* Header Part*/
+
+.menu-grid>a{
+  text-transform: uppercase;
+}
+
+.header-style{
+  position: relative;
+  left: 35px;
+  width:70%;
+  margin-left:15%; 
+  margin-right:15%; 
+}
+
+.header-logo{
+  display:inline-block;
+  vertical-align: middle;
+  height: 83px;
+}
+.header-text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-text-style{
+  font-size: 3em;
+  font-weight: 300;
+}
+.header-menu {
+  display: none;
+}
+/*Menu Part*/
+
+.nav {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #616161;
+  padding: 1.5em;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #212121;
+}
+
+/* Section Part*/
+.body-part{
+  width:77%;
+  margin: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.sec1{
+  overflow: auto;
+  position: relative;
+  width: 50%;
+  height:70%;
+  order1;
+}
+
+.image-contents{
+  width: 100%;
+  padding-left: 10px;
+  overflow: auto;
+  position: absolute;
+  bottom: 0px;
+  vertical-align: middle;
+  color: #FFFFF4;
+  background: rgba(0, 0, 0, 0.36);
+}
+
+.sec2-top-news{
+  overflow: scroll;
+  width:50%;
+  height: 70%;
+  margin-top: 24px;
+  padding: 13px;
+  order:2;
+}
+
+.top-news{
+  color: #616161;
+}
+
+.news:before {
+    content: "» ";
+}
+
+.news{
+  color: #616161;
+}
+
+
+.sec3{
+  margin: 10px 10px 0px 0px;
+  width:58%;
+  height: 52%;
+  order:3;
+}
+
+.tab1{
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+
+}
+
+.tab1-row{
+  padding: 10px;
+  background: #78909C;
+}
+
+.tab1-header{
+  text-align: center;
+  padding: 10px;
+
+}
+
+.tab1-odd-row{
+  background: grey;
+}
+
+.sec4{
+  width: 40%;
+  height: 52%;
+  display: grid;
+  grid-template-rows: 15% 40% 40%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-top: 8px;
+  order:4;
+}
+
+.sec4-row1{
+  grid-area: 1 / 1 / 1 / 5;
+  display: inherit;
+  padding-left: 10px;
+}
+.sec4-row2{
+  grid-area: 2 / 1 / 2 / 5;
+  display: inline-flex;
+}
+.text-temp{
+  line-height: 111px;
+  font-size: 3em;
+}
+.week-forecast{
+  grid-area: 3 / span 1 / span 1/ span 1 ;
+  text-align: center;
+}
+
+
+.sec5-latest-news{
+  width:100%;
+  padding: 18px;
+  order:5;
+  display: flex;
+  flex-wrap:wrap;
+}
+.title{
+  width:100%;
+}
+.latest-news-div{
+  width:86%;
+  padding: 7px;
+}
+.latest-news{
+  font-size: 15px;
+  color: #616161;
+}
+.newspic-image-small-div{
+  width: 14%;
+  padding-top: 6px;
+}
+
+/*Image styles*/
+.newspic{
+  width:100%;
+  height:100%;
+}
+
+.newspic-image-small{
+  width: 100%;
+}
+
+.city-logo{
+  width: 63%;
+  padding-bottom: 27px;
+}
+
+.weather-pic{
+  width: 50%;
+  height: 80%;
+}

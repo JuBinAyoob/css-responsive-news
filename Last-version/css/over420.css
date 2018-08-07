@@ -1,0 +1,75 @@
+@media screen and (max-width: 420px) {
+    .header-style {
+        width: 100%;
+        left: 0px; 
+    }
+
+    header {
+        height: 78px;
+    }
+    header-logo{
+        width: 100%;
+    }
+    .city-logo {
+        width: 55%;
+    }
+
+    /*Menu Part*/
+
+    .header-menu {
+        display: inline-block;
+        float: right;
+        margin: 2px 0;
+    }
+    .header-menu svg.hamburger {
+        width: 48px;
+        height: 48px;
+        fill: #e0e0e0;
+    }
+
+    .nav {
+        z-index: 10;
+        background-color: #ffffff; /* Computed value is black. Best set this. */
+        width: 300px;
+
+        /* Default 'top' and 'left' as per 'static': right below header, and 0. */
+        position: absolute;
+
+        transform: translate(-300px, 0);
+        transition: transform 0.3s ease;
+    }
+    .nav.open {
+        transform: translate(0, 0);
+    }
+    .nav-item {
+        display: list-item;
+        border-bottom: 1px solid #e0e0e0; /* Separator. */
+        width: 100%;
+        text-align: left;
+    }
+
+    .sec1{
+        width: 100%;
+        order:1;
+    }
+    .sec2-top-news{
+        width: 100%;
+        order:2;
+    }
+    .sec3{
+        width: 100%;
+        height: 56%;
+        order:3;
+    }
+    .sec4{
+        width: 100%;
+        height: 300px;
+        order:4;
+    }
+    .sec5-latest-news{
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        order:5;
+    }
+}
